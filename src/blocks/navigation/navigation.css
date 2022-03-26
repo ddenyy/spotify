@@ -1,0 +1,10 @@
+.navigation{
+  grid-area: nav;
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 100vh;
+  max-width: 200px;
+  z-index: 2;
+  position: fixed;
+
+}

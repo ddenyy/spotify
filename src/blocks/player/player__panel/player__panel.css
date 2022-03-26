@@ -1,0 +1,8 @@
+.player__panel{
+  margin-right: 40px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+

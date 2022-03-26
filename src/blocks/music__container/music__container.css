@@ -1,0 +1,8 @@
+.music__container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  max-width: 900px;
+
+}

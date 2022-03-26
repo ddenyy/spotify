@@ -1,0 +1,7 @@
+.navigation__icon_main{
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../../../image/home_white_24dp.svg);
+}
