@@ -7,9 +7,12 @@
   font: inherit;
   color: inherit;
   background-color: transparent;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-image: url(./image/pause-svgrepo-com.svg);
 }
 
 .player__pause:hover {

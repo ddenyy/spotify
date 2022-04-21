@@ -3,16 +3,15 @@
 @import './blocks/header/header__button/header__button.scss';
 @import './blocks/header/header__button/header__button_exit/header__button_exit.scss';
 @import './blocks/header/header__button/header__button_nav/header__button_nav.scss';
-@import './blocks/header/header__button/header__button_register/header__button_register.scss';
 @import './blocks/header/header__conteiner/header__conteiner.scss';
 @import './blocks/header/header__arrow/header__arrow.scss';
-@import './blocks/header/header__arrow/header__arrow_left/header__arrow_left.scss';
 @import './blocks/header/header__arrow/header__arrow_right/header__arrow_right.scss';
 @import './blocks/navigation/navigation.scss';
 @import './blocks/main/main.scss';
 @import './blocks/navigation/navigation__item/navigation__item.scss';
 @import './blocks/navigation/navigation__link/navigation__link.scss';
 @import './blocks/navigation/navigation__container/navigation__container.scss';
+@import './blocks/navigation/navigation__icon/navigation__icon.scss';
 @import './blocks/navigation/navigation__icon/navigation__icon_collection/navigation__icon_collection.scss';
 @import './blocks/navigation/navigation__icon/navigation__icon_main/navigation__icon_main.scss';
 @import './blocks/navigation/navigation__icon/navigation__icon_search/navigation__icon_search.scss';
@@ -28,7 +27,6 @@
 @import './blocks/article/article.scss';
 @import './blocks/article/article__text/article__text.scss';
 @import './blocks/article/article__button/article__button.scss';
-@import './blocks/bastone/bastone.scss';
 @import './blocks/player/player.scss';
 @import './blocks/player/player__image/player__image.scss';
 @import './blocks/player/player__panel/player__panel.scss';
@@ -46,13 +44,11 @@
 @import './blocks/page/page__register/page__register.scss';
 
 @import './blocks/search/search.scss';
-@import './blocks/search/search__container/search__container.scss';
 @import './blocks/search/search__input/search__input.scss';
 @import './blocks/search/search__title/search__title.scss';
 
 @import './blocks/music-box/music-box.scss';
 @import './blocks/music-box/music-box__like/music-box__like.scss';
-@import './blocks/music-box/music-box__name/music-box__name.scss';
 @import './blocks/music-box/music-box__title/music-box__title.scss';
 @import './blocks/page/page_search/page_search.scss';
 @import './blocks/music-box/music-box_info/music-box_info.scss';

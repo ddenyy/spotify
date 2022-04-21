@@ -2,7 +2,15 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content:flex-start;
-  max-width: 900px;
+  justify-content:space-between;
+}
 
+.music__container:last-child {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1129px) {
+  .music__container{
+    justify-content:flex-start;
+  }
 }
