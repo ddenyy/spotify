@@ -1,0 +1,16 @@
+.music__container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.music__container:last-child {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1129px) {
+  .music__container{
+    justify-content:flex-start;
+  }
+}

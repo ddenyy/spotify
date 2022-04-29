@@ -1,0 +1,28 @@
+.player{
+  width: calc(100% - 200px);
+  height: 60px;
+  grid-area: player;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Inter';
+  font-size: normal;
+  font-weight: 400;
+}
+
+
+.player::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: #333333;
+  opacity: 0.3;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}

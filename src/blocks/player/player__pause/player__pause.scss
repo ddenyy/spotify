@@ -1,0 +1,23 @@
+.player__pause{
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 50%;
+  // background-image: url(./image/pause-svgrepo-com.svg);
+}
+
+.player__pause:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s linear;
+  cursor: pointer;
+}

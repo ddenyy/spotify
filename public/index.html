@@ -9,29 +9,144 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Spotify</title>
+    <link rel="stylesheet" href="../src/index.css" />
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  <body class="page">
+    <header class="header">
+      <div class="header__conteiner">
+        <button class="header__arrow"></button>
+        <button class="header__arrow header__arrow_right"></button>
+      </div>
+      <div class="header__conteiner">
+        <button class="header__button">Зарегистрироваться</button>
+        <button class="header__button header__button_exit">Войти</button>
+      </div>
+    </header>
+    <div class="main">
+      <article class="music-theme">
+        <div class="article">
+          <h2 class="article__text">Музыка для души</h2>
+          <button class="article__button">ещё</button>
+        </div>
+        <div class="music__container">
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+        </div>
+      </article>
+      <article class="music-theme">
+        <div class="article">
+          <h2 class="article__text">Музыка для души</h2>
+          <button class="article__button">ещё</button>
+        </div>
+        <div class="music__container">
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+        </div>
+      </article>
+      <article class="music-theme">
+        <div class="article">
+          <h2 class="article__text">Музыка для души</h2>
+          <button class="article__button">ещё</button>
+        </div>
+        <div class="music__container">
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+          <div class="card">
+            <img class="card__image"/>
+            <h4 class="card__title">Музыка1</h3>
+            <p class="card__author">Я её сочинил</p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <nav class="navigation">
+      <div class="navigation__header">
+        <div class="navigation__image"></div>
+        <h3 class="navigation__title">Spotify</h3>
+      </div>
+      <ul class="navigation__container">
+        <li class="navigation__item">
+            <div class="navigation__icon navigation__icon_main"></div>
+            <a class="navigation__link button_hover">Главная</a>
+        </li>
+        <li class="navigation__item">
+            <div class="navigation__icon navigation__icon_search"></div>
+            <a class="navigation__link button_hover">Поиск</a>
+        </li class="navigation__item">
+        <li class="navigation__item">
+            <div class="navigation__icon navigation__icon_collection"></div>
+            <a class="navigation__link button_hover">Моя коллекция</a>
+        </li class="navigation__item">
+    </nav>
+    <div class="player">
+      <div class="player__image"></div>
+      <div class="player__panel">
+        <button class="header__arrow"></button>
+        <button class="player__pause">
+          <?xml version="1.0" encoding="iso-8859-1"?>
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	          viewBox="0 0 365 365" style="enable-background:new 0 0 365 365;" xml:space="preserve">
+            <g>
+	            <rect style="fill: #FFFFFF" x="74.5" width="73" height="365"/>
+	            <rect style="fill: #FFFFFF"x="217.5" width="73" height="365"/>
+            </g>
+          </svg>
+        </button>
+        <button class="header__arrow header__arrow_right"></button>
+      </div>
+      <h3 class="player__title">музыка 1</h3>
+    </div>
   </body>
 </html>

@@ -1,0 +1,10 @@
+.header__conteiner {
+  z-index: 2;
+}
+
+.header__conteiner:first-child {
+  margin-left: 20px;
+}
+.header__conteiner:last-child {
+  margin-right: 20px;
+}

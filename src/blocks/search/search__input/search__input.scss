@@ -1,0 +1,14 @@
+.search__input{
+  all: unset;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    margin-left: 30px;
+    width: 400px;
+    padding: 0;
+    height: 30px;
+}
+
+.search__input:focus{
+  border-color: yellowgreen;
+}
