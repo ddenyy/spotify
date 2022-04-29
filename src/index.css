@@ -1,3 +1,4 @@
+@import './vendor/fonts/fonts.css';
 .page {
   background: radial-gradient(circle farthest-corner, #333333, #111111);
   margin: 0px;
@@ -47,6 +48,12 @@
   background-color: transparent;
   color: #FFFFFF;
   font-size: 20px;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s linear;
+  cursor: pointer;
 }
 
 .header__button_exit {
@@ -163,7 +170,7 @@
 }
 
 .navigation__title {
-  margin: 20px;
+  margin-left: 10px;
   margin-top: 40px;
   font-weight: 900;
   font-size: 30px;
@@ -183,7 +190,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .music__container:last-child {
@@ -222,6 +229,9 @@
   background-color: #222222;
   margin-bottom: 20px;
   margin-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .card:hover {
@@ -233,12 +243,14 @@
 .article {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .article__text {
   color: #FFFFFF;
   font-size: 24px;
+  margin-right: 42px;
+  font-weight: 400;
 }
 
 .article__button {
@@ -248,6 +260,10 @@
   font: inherit;
   background-color: transparent;
   margin-right: 22px;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .article__button:hover {
@@ -266,6 +282,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-family: "Inter";
+  font-size: normal;
+  font-weight: 400;
 }
 
 .player::after {
@@ -274,7 +293,7 @@
   width: 100%;
   height: 60px;
   position: fixed;
-  background-color: #111111;
+  background-color: #333333;
   opacity: 0.3;
   bottom: 0;
   right: 0;
@@ -307,8 +326,8 @@
 
 .player__pause {
   margin: 0;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   padding: 0;
   border: none;
   font: inherit;
@@ -319,7 +338,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url(./image/pause-svgrepo-com.svg);
+  border-radius: 50%;
 }
 
 .player__pause:hover {
@@ -330,12 +349,6 @@
 
 .arrow_position_bottom {
   background-color: transparent;
-}
-
-.button_hover:hover {
-  opacity: 0.8;
-  transition: opacity 0.2s linear;
-  cursor: pointer;
 }
 
 .register {
@@ -464,8 +477,8 @@
   margin-left: 30px;
   margin-bottom: 20px;
   border: 2px solid #FFFFFF;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .music-box__title {
@@ -508,7 +521,7 @@
   width: 200px;
   height: 50px;
   margin-right: auto;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,8 +1,8 @@
+@import './vendor/fonts/fonts.css';
 @import './blocks/page/page.scss';
 @import './blocks/header/header.scss';
 @import './blocks/header/header__button/header__button.scss';
 @import './blocks/header/header__button/header__button_exit/header__button_exit.scss';
-@import './blocks/header/header__button/header__button_nav/header__button_nav.scss';
 @import './blocks/header/header__conteiner/header__conteiner.scss';
 @import './blocks/header/header__arrow/header__arrow.scss';
 @import './blocks/header/header__arrow/header__arrow_right/header__arrow_right.scss';
@@ -33,7 +33,6 @@
 @import './blocks/player/player__title/player__title.scss';
 @import './blocks/player/player__pause/player__pause.scss';
 @import './blocks/header/header__arrow/arrow_position_bottom/arrow_position_bottom.scss';
-@import './blocks/button/button_hover/button_hover.scss';
 @import './blocks/Register/register.scss';
 @import './blocks/Register/register__button/register__button.scss';
 @import './blocks/Register/register__button/register__button_enter/register__button_enter.scss';
@@ -42,13 +41,10 @@
 @import './blocks/Register/register__input/register__input.scss';
 @import './blocks/Register/register__title/register__title.scss';
 @import './blocks/page/page__register/page__register.scss';
-
 @import './blocks/search/search.scss';
 @import './blocks/search/search__input/search__input.scss';
 @import './blocks/search/search__title/search__title.scss';
-
 @import './blocks/music-box/music-box.scss';
-@import './blocks/music-box/music-box__like/music-box__like.scss';
 @import './blocks/music-box/music-box__title/music-box__title.scss';
 @import './blocks/page/page_search/page_search.scss';
 @import './blocks/music-box/music-box_info/music-box_info.scss';
